@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    color: rgb(14, 10, 10);
+}
+
+
+
+
+.navbar {
+    background-color: rgb(89, 132, 182) !important;
+    /* opacity: 0.6 !important; */
+}
+
+.navbar a {
+    color: white;
+    font-size: larger;
+    text-shadow: 2px 3px 3px black;
+}
+
+/* .bg-primary {
+    
+    background-color: #65b75f !important;
+} */
+
+/* #cntr_id{
+    height: 580px !important;
+    width: 1320px !important;
+    background: url('https://source.unsplash.com/random/1920x1080/?coding,technology') no-repeat center center/cover;
+
+} */
+
+
+.c_home::before {
+    content: "";
+    position: absolute;
+    background: url('img/bg_hiome.jpg') no-repeat center center/cover;
+    min-height: 100%;
+
+
+    min-width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.50;
+    z-index: -1;
+}
+
+
+
+/* calculator part */
+
+.c-body {
+    width: 40vw;
+    height: 76vh;
+    /* background-color: rgb(240, 240, 161); */
+    background-color: transparent;
+
+}
+
+.container-c {
+    text-align: center;
+
+
+}
+
+table {
+    margin: auto;
+    margin-top: 10px;
+}
+
+input {
+    font-size: 28px;
+    border-radius: 20px;
+    border: 3px solid rgb(97, 158, 148);
+    background-color: rgb(235, 226, 226);
+    padding-left: 10px;
+    
+
+}
+input::placeholder {
+    font: 18px sans-serif;
+    padding-left: 20px;
+}
+
+button {
+    font-size: 40px;
+    background-color: blueviolet;
+    width: 98px;
+    height: 57px;
+    border-radius: 20px;
+    color: white;
+    margin: 6px;
+    box-shadow: 0 7px #999;
+    border: none;
+    
+}
+button:hover {background-color: #819b82}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.body {
+    display: inline-block;
+    background-color: rgb(124, 196, 192);
+    padding: 10px;
+    border-radius: 20px;
+    
+}
